@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .filePicker{
+    width:  100px;
+    height: 70px;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  
