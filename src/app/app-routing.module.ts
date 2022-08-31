@@ -5,7 +5,7 @@ import { CsvComponent } from './csv/csv.component';
 
 const routes: Routes = [
   { path: '', component: AffichageComponent },
-  { path: 'user', component: CsvComponent },
+  { path: 'prediction', component: CsvComponent },
 ];
 
 @NgModule({

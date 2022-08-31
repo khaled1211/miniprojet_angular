@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { EmployeeComponent } from './employee/employee.component';
 import { CsvComponent } from './csv/csv.component';
 import { FileService } from './shared/file.service';
 import { ToastrModule } from 'ngx-toastr';
@@ -26,12 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    EmployeeComponent,
-    CsvComponent,
-    AffichageComponent,
-  ],
+  declarations: [AppComponent, CsvComponent, AffichageComponent],
   imports: [
     BrowserModule,
     FormsModule,
